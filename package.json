@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-example",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18"
+  },
+  "main": "main.mjs",
+  "scripts": {
+    "start": "node main.mjs"
+  },
+  "author": "brody192",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.1.1"
+  }
+}
