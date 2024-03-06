@@ -2,7 +2,7 @@
   "name": "puppeteer-example",
   "version": "1.0.0",
   "engines": {
-    "node": "18"
+    "node": "20"
   },
   "main": "main.mjs",
   "scripts": {
@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.3",
-    "puppeteer": "^22.4.0"
+    "puppeteer-core": "^22.4.0"
   }
 }
