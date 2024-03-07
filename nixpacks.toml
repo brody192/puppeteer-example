@@ -1,0 +1,2 @@
+[phases.setup]
+    aptPkgs = [] # avoid installation of unneeded apt packages installed via https://github.com/railwayapp/nixpacks/blob/main/src/providers/node/mod.rs#L125C1-L140C10
