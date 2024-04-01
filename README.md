@@ -3,12 +3,12 @@
 Create a reference variable on your Railway service that you deploy your app to
 
 ```shell
-BROWSER_ENDPOINT=${{Browserless.BROWSER_ENDPOINT}}
+BROWSER_ENDPOINT=${{Browserless.BROWSER_WS_ENDPOINT}}
 ```
 
 </br>
 
-Then use `process.env.BROWSER_ENDPOINT` in code
+Then use `process.env.BROWSER_WS_ENDPOINT` in code
 
 ### Before
 
@@ -19,7 +19,7 @@ const browser = await puppeteer.launch();
 ### After
 
 ```javascript
-const browser = await puppeteer.connect({ browserWSEndpoint: process.env.BROWSER_ENDPOINT });
+const browser = await puppeteer.connect({ browserWSEndpoint: process.env.BROWSER_WS_ENDPOINT });
 ```
 
 The rest of your JS/TS code remains the same with no other changes required.

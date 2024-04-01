@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000;
 
 app.listen(port, () => console.log(`Server listening on port: ${port}`));
 
-const browser = await puppeteer.connect({ browserWSEndpoint: process.env.BROWSER_ENDPOINT });
+const browser = await puppeteer.connect({ browserWSEndpoint: process.env.BROWSER_WS_ENDPOINT });
 
 const page = await browser.newPage();
 await page.goto("https://example.com/");
