@@ -3,7 +3,7 @@
 Create a reference variable on your Railway service that you deploy your app to
 
 ```shell
-BROWSER_ENDPOINT=${{Browserless.BROWSER_WS_ENDPOINT}}
+BROWSER_WS_ENDPOINT=${{Browserless.BROWSER_WS_ENDPOINT}}
 ```
 
 </br>

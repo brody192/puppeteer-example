@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "puppeteer-core": "^22.6.1"
+    "puppeteer-core": "^22.13.1"
   }
 }
